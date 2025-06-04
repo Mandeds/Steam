@@ -1,0 +1,32 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171D25;
+}
+
+
+nav{
+    text-align: center;
+    display: inline-block;
+    font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+}
+
+
+.Botões{
+    padding: 1%;
+    width: 600px;
+    height: auto;
+    margin: 1%;
+}
+
+.Pesquisa{
+    
+    display: inline-block;
+    background-color: aqua;
+}
+
+.Pesquisa_link{
+    font-size: 16px;
+}

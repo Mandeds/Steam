@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle,#276e74 5%,#114483 60%,#1e2f44 100%);
+    background-size: con;
+}
+
+#Inico{
+    margin: 1.5%;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+}
+
+#Seundario{
+    margin: 1.5%;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+#Logo{
+    width: 150px;
+    height: auto;
+}
