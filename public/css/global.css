@@ -6,7 +6,7 @@
 
 body{
     background: radial-gradient(circle,#276e74 5%,#114483 60%,#1e2f44 100%);
-    background-size: con;
+    background-size: contain;
 }
 
 #Inico{

@@ -1,18 +1,33 @@
 
 header{
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #171D25;
 }
 
+main{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    background-color: chocolate;
+}
 
 nav{
+    background-color: blue;
+    display: inline-block;
     text-align: center;
     display: inline-block;
     font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
 }
 
+#Cartas{
+    display: flex;
+    margin: 1%;
+    background-color: green;
+}
 
 .Botões{
     padding: 1%;
@@ -22,11 +37,16 @@ nav{
 }
 
 .Pesquisa{
-    
+
+    margin: 1%;
+    height: 50%;
+    width: 80%;
     display: inline-block;
-    background-color: aqua;
+    background-color: rgb(33, 33, 94);
 }
 
 .Pesquisa_link{
+    text-align: center;
+    width: 90%;
     font-size: 16px;
 }
