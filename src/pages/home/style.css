@@ -27,9 +27,10 @@ li{
 }
 
 #Cartas{
-    display: flex;
-    margin: 1%;
-    /*background-color: green;*/
+  display: flex;
+  margin: 1.5%;
+  align-items: center;
+  /*background-color: green;*/
 }
 
 .Botões{
@@ -126,7 +127,7 @@ nav {
       display: block;
     }
 
-    .Botões{
+    .Botões.mostrar{
       display: none;
       position: absolute;
       left: 0%;
