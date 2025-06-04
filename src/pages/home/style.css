@@ -16,11 +16,14 @@ main{
 }
 
 nav{
-    background-color: blue;
     display: inline-block;
     text-align: center;
     display: inline-block;
     font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
 }
 
 #Cartas{
@@ -30,23 +33,74 @@ nav{
 }
 
 .Botões{
-    padding: 1%;
+    padding: 0.5%;
     width: 600px;
     height: auto;
     margin: 1%;
 }
 
 .Pesquisa{
-
     margin: 1%;
     height: 50%;
     width: 80%;
-    display: inline-block;
     background-color: rgb(33, 33, 94);
 }
 
 .Pesquisa_link{
+    list-style: square;
     text-align: center;
     width: 90%;
     font-size: 16px;
 }
+
+
+
+/*-------------------------------------------------*/
+
+
+nav {
+    background: #2196f3;
+    padding: 10px;
+  }
+  
+  .menu-hamburguer {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none; /* Esconde até a tela ficar pequena */
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Quando a tela fica pequena, faz o truque */
+  @media (max-width: 600px) {
+    .menu-hamburguer {
+      display: block; /* Mostra o botão hambúrguer */
+    }
+    ul {
+      display: none; /* Esconde o menu */
+      flex-direction: column;
+      background: #2196f3;
+      position: absolute;
+      width: 100%;
+      top: 50px;
+      left: 0;
+    }
+    ul.mostrar {
+      display: flex; /* Mostra o menu quando clicar */
+    }
+  }
