@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
+a{
+    color: aliceblue;
+}
+
 body{
+    background-repeat: no-repeat;
     background: radial-gradient(circle,#276e74 5%,#114483 60%,#1e2f44 100%);
     background-size: contain;
 }

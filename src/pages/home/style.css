@@ -12,10 +12,11 @@ main{
     justify-content: flex-start;
     width: 100%;
     height: auto;
-   /* background-color: chocolate;*/
+   background-color: chocolate;
 }
 
 nav{
+    background-color: aqua;
     display: inline-block;
     text-align: center;
     display: inline-block;
@@ -63,9 +64,10 @@ li{
 /*----------------------    MENU HAMBURGUER   ---------------------------*/
 
 
-nav {
- /* background: #2196f3;*/
- padding: 10px;
+#Humburguer{
+ background: #f32121;
+ padding: 1%;
+ width: 60%;
 }
   
 .menu-hamburguer {
@@ -117,19 +119,5 @@ nav {
     }
     ul.mostrar {
       display: flex;
-    }
-  }
-
-    /*--------------------------   CABEÇALHO  -----------------------------------------*/
-  
-  @media(max-width:0px){
-    .Centro{
-      display: block;
-    }
-
-    .Botões.mostrar{
-      display: none;
-      position: absolute;
-      left: 0%;
     }
   }
