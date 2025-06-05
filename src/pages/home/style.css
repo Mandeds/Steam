@@ -5,23 +5,27 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #171D25;
+    background-color: #000000;
 }
 
 aside{
   margin: 1%;
   display: flex;
-  background-color: aqua;
-  display: flex;
   width: 15%;
 }
 
 .Dificil{
-  background-color: #0F216E;
+
+  width: 2280px;
+
+    background-image: url(/public/assents/video/Design\ sem\ nome.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
     display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: 20%;
+    scroll-padding-right: 60%;
+    justify-content: end;
+    width: 12380px;
 }
 
 
@@ -58,7 +62,7 @@ nav{
 
 #Hamburguer{
   display: flex;
-  text-align: center;
+  justify-content: start;
   background: ();
   margin: 5%;
   width: 70%;
@@ -70,6 +74,8 @@ nav{
 /*----------------------    MENU HAMBURGUER   ---------------------------*/
 
 .menu-hamburguer {
+  display: flex;
+  justify-content: start;
     width: 700px;
     font-size: 18px;
     color: white;
@@ -78,21 +84,19 @@ nav{
   }
   
   ul {
+    display: flex;
     background: linear-gradient(to right, #2F7FC2, #0F216E);
-    height: 100%;
+    height: auto;
     align-items: center;
     width: 100%;
     font-size: 13px;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
     border-radius: 4px 4px 4px 4px;
   }
   
   li {
     display: flex;
-    width: 80;
+    width: 100%;
     height: 60%;
     justify-content: center;
     margin-right: 1%;
