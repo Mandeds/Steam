@@ -12,11 +12,9 @@ main{
     justify-content: flex-start;
     width: 100%;
     height: auto;
-   background-color: chocolate;
 }
 
 nav{
-    background-color: aqua;
     display: inline-block;
     text-align: center;
     display: inline-block;
@@ -65,7 +63,6 @@ li{
 
 
 #Humburguer{
- background: #f32121;
  padding: 1%;
  width: 60%;
 }
