@@ -1,31 +1,57 @@
 
 header{
+  width: 100%;
     height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #171D25;
+    background-color: #000000;
 }
 
+<<<<<<< HEAD
 main{
     display: flex;
     justify-content: flex-start;
     width: 100%;
     height: auto;
+=======
+aside{
+  margin: 1%;
+  display: flex;
+  width: 15%;
+>>>>>>> 583faf57ee29fa8553dfd9b2730554be78562e84
 }
 
+.Dificil{
+
+  width: 2280px;
+
+    background-image: url(/public/assents/video/Design\ sem\ nome.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    scroll-padding-right: 60%;
+    justify-content: end;
+    width: 12380px;
+}
+
+
+
 nav{
+<<<<<<< HEAD
+=======
+    /*background-color: aqua;*/
+    width: 90%;
+>>>>>>> 583faf57ee29fa8553dfd9b2730554be78562e84
     display: inline-block;
     text-align: center;
     display: inline-block;
     font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
 }
 
-li{
-    list-style: none;
-}
-
 #Cartas{
+  
   display: flex;
   margin: 1.5%;
   align-items: center;
@@ -43,70 +69,64 @@ li{
     margin: 1%;
     height: 50%;
     width: 80%;
-    background-color: rgb(33, 33, 94);
 }
 
-.Pesquisa_link{
-    list-style: square;
-    text-align: center;
-    width: 90%;
-    font-size: 16px;
+#Hamburguer{
+  display: flex;
+  justify-content: start;
+  background: ();
+  margin: 5%;
+  width: 70%;
 }
-
-
-
 
 
 
 
 /*----------------------    MENU HAMBURGUER   ---------------------------*/
 
+<<<<<<< HEAD
 
 #Humburguer{
  padding: 1%;
  width: 60%;
 }
   
+=======
+>>>>>>> 583faf57ee29fa8553dfd9b2730554be78562e84
 .menu-hamburguer {
-    margin: 0.1rem;
-    font-size: 30px;
+  display: flex;
+  justify-content: start;
+    width: 700px;
+    font-size: 18px;
     color: white;
     cursor: pointer;
     display: none;
   }
   
   ul {
-    
-    /*background-color: rgb(255, 0, 119);*/
-    
-    height: 100%;
-    text-align: center;
-    width: 100%;
-    font-size: 16px;
-    
-    
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
+    background: linear-gradient(to right, #2F7FC2, #0F216E);
+    height: auto;
+    align-items: center;
+    width: 100%;
+    font-size: 13px;
+    list-style: none;
+    border-radius: 4px 4px 4px 4px;
   }
   
   li {
     display: flex;
-    /*background-color: chartreuse;*/
     width: 100%;
+    height: 60%;
     justify-content: center;
     margin-right: 1%;
   }
   
-  
   @media (max-width: 600px) {
     .menu-hamburguer {
-      display: block;
+      display: flex; /* Mostra o botão */
     }
     ul {
-      /*background: #2196f3;*/
-      
       display: none;
       flex-direction: column;
       position: absolute;
