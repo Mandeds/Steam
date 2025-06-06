@@ -1,77 +1,69 @@
-
-header{
+header {
   width: 100%;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
 }
 
-<<<<<<< HEAD
-main{
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    height: auto;
-=======
-aside{
+main {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto
+}
+
+aside {
   margin: 1%;
   display: flex;
-  width: 15%;
->>>>>>> 583faf57ee29fa8553dfd9b2730554be78562e84
+  width: 15%
 }
 
-.Dificil{
-
+.Dificil {
   width: 2280px;
-
-    background-image: url(/public/assents/video/Design\ sem\ nome.gif);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    display: flex;
-    scroll-padding-right: 60%;
-    justify-content: end;
-    width: 12380px;
+  background-image: url(/public/assents/video/Design\ sem\ nome.gif);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  scroll-padding-right: 60%;
+  justify-content: end;
+  width: 12380px;
 }
 
 
 
-nav{
-<<<<<<< HEAD
-=======
-    /*background-color: aqua;*/
-    width: 90%;
->>>>>>> 583faf57ee29fa8553dfd9b2730554be78562e84
-    display: inline-block;
-    text-align: center;
-    display: inline-block;
-    font-family:"Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
+nav {
+  /*background-color: aqua;*/
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+  display: inline-block;
+  font-family: "Motiva Sans", "Twemoji", "Noto Sans", Helvetica, sans-serif;
 }
 
-#Cartas{
-  
+#Cartas {
   display: flex;
   margin: 1.5%;
   align-items: center;
   /*background-color: green;*/
 }
 
-.Botões{
-    padding: 0.5%;
-    width: 600px;
-    height: auto;
-    margin: 1%;
+.Botões {
+  padding: 0.5%;
+  width: 600px;
+  height: auto;
+  margin: 1%;
 }
 
-.Pesquisa{
-    margin: 1%;
-    height: 50%;
-    width: 80%;
+.Pesquisa {
+  margin: 1%;
+  height: 50%;
+  width: 80%;
 }
 
-#Hamburguer{
+#Hamburguer {
   display: flex;
   justify-content: start;
   background: ();
@@ -84,57 +76,56 @@ nav{
 
 /*----------------------    MENU HAMBURGUER   ---------------------------*/
 
-<<<<<<< HEAD
-
-#Humburguer{
- padding: 1%;
- width: 60%;
+HEAD #Humburguer {
+  padding: 1%;
+  width: 60%;
 }
-  
-=======
->>>>>>> 583faf57ee29fa8553dfd9b2730554be78562e84
+
 .menu-hamburguer {
   display: flex;
   justify-content: start;
-    width: 700px;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
-    display: none;
+  width: 700px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  display: none
+}
+
+ul {
+  display: flex;
+  background: linear-gradient(to right, #2F7FC2, #0F216E);
+  height: auto;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+  list-style: none;
+  border-radius: 4px 4px 4px 4px;
+}
+
+li {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  justify-content: center;
+  margin-right: 1%;
+}
+
+@media (max-width: 600px) {
+  .menu-hamburguer {
+    display: flex;
+    /* Mostra o botão */
   }
-  
+
   ul {
-    display: flex;
-    background: linear-gradient(to right, #2F7FC2, #0F216E);
-    height: auto;
-    align-items: center;
+    display: none;
+    flex-direction: column;
+    position: absolute;
     width: 100%;
-    font-size: 13px;
-    list-style: none;
-    border-radius: 4px 4px 4px 4px;
+    top: 50px;
+    left: 0;
   }
-  
-  li {
+
+  ul.mostrar {
     display: flex;
-    width: 100%;
-    height: 60%;
-    justify-content: center;
-    margin-right: 1%;
   }
-  
-  @media (max-width: 600px) {
-    .menu-hamburguer {
-      display: flex; /* Mostra o botão */
-    }
-    ul {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      width: 100%;
-      top: 50px;
-      left: 0;
-    }
-    ul.mostrar {
-      display: flex;
-    }
-  }
+}
